@@ -1,48 +1,69 @@
 import React from 'react';
-import employees from './utils/employees.json';
+import Header from './components/header';
+import Search from './components/search';
+import Table from './components/table';
 import './App.css';
+import employees from './utils/employees.json';
+
 
 class App extends React.Component {
 
   state = {
     classList: employees,
-    sortOrder: ""
+    shadowClassList: employees,
+    sortOrder: "",
+    search: ""
   }
-  handleSort = () => {
-    console.log("test")
+  handleSort = (sortCritera) => {
+    console.log("sorted successfully")
+    let newSort
+    if(this.state.sortOrder !== "des") {
+        newSort= this.state.classList.sort(function(a, b) {
+            return a[sortCritera] - b[sortCritera];
+          });
+
+    }
+    else {
+        newSort= this.state.classList.sort(function(a, b) {
+            return b[sortCritera] - a[sortCritera];
+          });
+    }
+    console.log(newSort)
+    const newSortOrder = this.state.sortOrder ==="des"? "asc":"des"
+    this.setState({ classList: newSort, sortOrder: newSortOrder })
   }
-  render() {
-    return (
-      <>
-        <table className="table table-striped table-dark">
-          <thead>
-            <tr>
-              <th scope="col">id</th>
-              <th scope="col">First</th>
-              <th scope="col">Last</th>
-              <th scope="col" onClick={()=>this.handleSort()}>role</th>
-              <th scope="col">email</th>
-            </tr>
-          </thead>
-          <tbody>
-            {this.state.classList.map(employee=> (
-             
-              <tr>
 
-                <th scope="row">{employee.id}</th>
-                <td>{employee.first}</td>
-                <td>{employee.last}</td>
-                <td>{employee.role}</td>
-                <td>{employee.email}</td>
-              </tr>
+  handleInputChange = event => {
+    let value = event.target.value.toLocaleLowerCase().split("");
+    if(value.length === 0){
+      this.setState({
+        classList: this.state.shadowClassList //need to create a new array and set the array to include names matching the value then set state to the new array
+      });
+    }else {
+      const newArray = employees.filter(employee => {
+        const comparisonArray = (`${employee.first} ${employee.last}`).toLocaleLowerCase().split("")
+        const buildArray = [];
+        for(let i=0; i<value.length; i++){
+          buildArray.push(comparisonArray[i])
+        }
+        return buildArray.join("") === value.join("")
+      })
+      this.setState({
+        classList: newArray //need to create a new array and set the array to include names matching the value then set state to the new array
+      });
+    }
 
-            ))}
-          </tbody>
-        </table>
-
-      </>
-    );
   }
+
+render() {
+  return (
+    <div className="container-flex">
+      <Header />
+      <Search handleInputChange={this.handleInputChange}/>
+      <Table state={this.state} handleSort={this.handleSort}/>
+    </div>
+  )
+}
 
 }
 
