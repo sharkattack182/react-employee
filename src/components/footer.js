@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../imgs/uncc.png"
+
 const styles = {
     font : {
         color: "#1a472b",
