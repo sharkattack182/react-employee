@@ -21,7 +21,7 @@
  
  ## Links 
  [Github](https://github.com/sharkattack182/react-employee)
- [Deployed](https://github.com/sharkattack182)
+ [Deployed](https://powerful-lowlands-68943.herokuapp.com/)
  
  ## Visuals
  Main View
