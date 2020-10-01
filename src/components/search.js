@@ -3,12 +3,12 @@ import React from "react";
 function Search(props) {
   const styles = {
     main: {
-      backgroundColor: "#007E33",
+      backgroundColor: "#1a472b",
       padding: "20px"
     },
     label: {
       fontSize: "20px",
-      color: "#ffbb33"
+      color: "#b5a66b"
     },
     column: {
       marginLeft: "auto",
@@ -16,7 +16,10 @@ function Search(props) {
     },
     row: {
       maxWidth: "100vw",
-      backgroundColor: "#007E33"
+      backgroundColor: "#1a472b"
+    },
+    button: {
+      backgroundColor: "#b5a66b"
     }
   }
 
@@ -35,9 +38,9 @@ function Search(props) {
               placeholder="Search Classmates"
               id="search"
             />
-            <button onClick={props.handleFormSubmit} className="btn btn-warning mt-3">
+            {/* <button style={styles.button} onClick={props.handleFormSubmit} className="btn mt-3">
             <i class="fas fa-search"></i>
-          </button>
+          </button> */}
           </div>
         </form>
       </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/header';
 import Search from './components/search';
 import Table from './components/table';
+import Footer from './components/footer';
 import './App.css';
 import employees from './utils/employees.json';
 
@@ -61,6 +62,7 @@ render() {
       <Header />
       <Search handleInputChange={this.handleInputChange}/>
       <Table state={this.state} handleSort={this.handleSort}/>
+      <Footer />
     </div>
   )
 }

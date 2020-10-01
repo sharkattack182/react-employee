@@ -3,13 +3,14 @@ import React from 'react';
 function Table(props) {
   const styles = {
     container: {
-      backgroundColor: "#007E33",
+      backgroundColor: "#1a472b",
       minWidth: "100vw",
-      minHeight: "100vh"
+      minHeight: "100vh",
+      paddingBottom: "100px"
     },
     table: {
-      color: "#007E33",
-      paddingBottom: "100vh"
+      color: "#1a472b",
+
     }
   }
     return (
@@ -24,7 +25,7 @@ function Table(props) {
               <th scope="col" onClick={()=>props.handleSort("role")}>Role</th>
               <th scope="col" onClick={()=>props.handleSort("email")}><i class="fas fa-envelope-square"></i> Email</th>
               <th scope="col" onClick={()=>props.handleSort("phone")}><i class="fas fa-phone-square"></i> Phone</th>
-              <th scope="col" onClick={()=>props.handleSort("link")}><i class="fab fa-linkedin"></i> LinkedIn</th>
+              <th scope="col"><i class="fab fa-linkedin"></i> LinkedIn</th>
             </tr>
           </thead>
           <tbody>
@@ -38,7 +39,7 @@ function Table(props) {
                 <td>{employee.role}</td>
                 <td>{employee.email}</td>
                 <td>{employee.phone}</td>
-                <td>{employee.link}</td>
+                <a href={employee.link} target="_blank" ><td>LinkedIn</td></a>
               </tr>
 
             ))}

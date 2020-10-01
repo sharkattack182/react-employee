@@ -6,7 +6,7 @@
         "role": "Instructor",
         "email": "jeff@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/jkhoffman/"
     },
     {
         "id": 1,
@@ -15,7 +15,7 @@
         "role": "TA",
         "email": "max@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/maxwell-allee-90626b169/"
     },
     {
         "id": 2,
@@ -24,7 +24,7 @@
         "role": "TA",
         "email": "caleb@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/caleb-crum/"
     },
     {
         "id": 3,
@@ -33,7 +33,7 @@
         "role": "Student",
         "email": "matt@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/matthew-courtney-2854811b5/"
     },
     {
         "id": 4,
@@ -42,7 +42,7 @@
         "role": "Student",
         "email": "aaron@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/aaron-stoiano-4949561ab/"
     },
     {
         "id": 5,
@@ -51,7 +51,7 @@
         "role": "Student",
         "email": "adam@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/adam-grossman-charlotte/"
     },
     {
         "id": 6,
@@ -60,7 +60,7 @@
         "role": "Student",
         "email": "adrian@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/adrian-diaz-81044a1aa/"
     },
     {
         "id": 7,
@@ -69,7 +69,7 @@
         "role": "Student",
         "email": "aleck@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/aleck-bryson-tuluenga-86295264/"
     },
     {
         "id": 8,
@@ -78,7 +78,7 @@
         "role": "Student",
         "email": "zona@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/april-zona-garcia-6021b839/"
     },
     {
         "id": 9,
@@ -87,7 +87,7 @@
         "role": "SSM",
         "email": "ashley@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/neffashley/"
     },
     {
         "id": 10,
@@ -96,7 +96,7 @@
         "role": "Student",
         "email": "chris@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/chris-collins-629293151/"
     },
     {
         "id": 11,
@@ -105,7 +105,7 @@
         "role": "Student",
         "email": "collin@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/collin-lanier-a32762169/"
     },
     {
         "id": 12,
@@ -114,7 +114,7 @@
         "role": "Student",
         "email": "daniel@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/daniel-gerrald-493b89165/"
     },
     {
         "id": 13,
@@ -123,7 +123,7 @@
         "role": "Student",
         "email": "deonte@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/deonte-archie-29b93a185/"
     },
     {
         "id": 14,
@@ -132,7 +132,7 @@
         "role": "Student",
         "email": "eden@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/eden-stapleton-2244241b5/"
     },
     {
         "id": 15,
@@ -141,7 +141,7 @@
         "role": "Student",
         "email": "george@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/george-kourakos-93018a1a7/"
     },
     {
         "id": 16,
@@ -150,7 +150,7 @@
         "role": "Student",
         "email": "gino@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/gino-zaccardelli-06887418/"
     },
     {
         "id": 17,
@@ -159,7 +159,7 @@
         "role": "TA",
         "email": "heather@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/heather-sorrells/"
     },
     {
         "id": 18,
@@ -168,7 +168,7 @@
         "role": "Student",
         "email": "jamie@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/jamie-perrier-5373991aa/"
     },
     {
         "id": 19,
@@ -177,7 +177,7 @@
         "role": "Student",
         "email": "jared@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/jared-gober-7562611b3/"
     },
     {
         "id": 20,
@@ -186,7 +186,7 @@
         "role": "Student",
         "email": "jeremy@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "linkedin.com/in/jeremy-gager-3a028863/"
     },
     {
         "id": 21,
@@ -204,7 +204,7 @@
         "role": "Student",
         "email": "jordan@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/jordantriplett/"
     },
     {
         "id": 23,
@@ -213,7 +213,7 @@
         "role": "Student",
         "email": "juan@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/juan-flores-aa28271b2/"
     },
     {
         "id": 24,
@@ -222,7 +222,7 @@
         "role": "Student",
         "email": "justin@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/jgroves1288/"
     },
     {
         "id": 25,
@@ -231,7 +231,7 @@
         "role": "Student",
         "email": "kim@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/kim-marziali-090497aa/"
     },
     {
         "id": 26,
@@ -240,7 +240,7 @@
         "role": "Student",
         "email": "kristian@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/ksworthy/"
     },
     {
         "id": 27,
@@ -249,7 +249,7 @@
         "role": "Student",
         "email": "leonard@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/leonard-love-78085b18/"
     },
     {
         "id": 28,
@@ -258,7 +258,7 @@
         "role": "Student",
         "email": "mac@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/mac-parthum-3b758782/"
     },
     {
         "id": 29,
@@ -267,7 +267,7 @@
         "role": "Student",
         "email": "nicholas@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/nicholas-ryder-8a72021b3/"
     },
     {
         "id": 30,
@@ -276,7 +276,7 @@
         "role": "Student",
         "email": "orlando@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/orlando-liddell-0297ab116/"
     },
     {
         "id": 31,
@@ -285,7 +285,7 @@
         "role": "Student",
         "email": "ryan@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/ryanbrooks0101/"
     },
     {
         "id": 32,
@@ -294,7 +294,7 @@
         "role": "Student",
         "email": "saad@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/saadrassam/"
     },
     {
         "id": 33,
@@ -303,7 +303,7 @@
         "role": "Student",
         "email": "sarina@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/sarina-burch-3b32a01a0/"
     },
     {
         "id": 34,
@@ -312,7 +312,7 @@
         "role": "Student",
         "email": "scott@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/scottbuonya/"
     },
     {
         "id": 35,
@@ -321,7 +321,7 @@
         "role": "Student",
         "email": "soleman@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/soleman-sayeed-998488177/"
     },
     {
         "id": 36,
@@ -330,7 +330,7 @@
         "role": "Student",
         "email": "steven@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/steven-mercure-2987131b1/"
     },
     {
         "id": 37,
@@ -339,6 +339,6 @@
         "role": "Student",
         "email": "tyshia@test.com",
         "phone": "704-XXX-XXXX",
-        "link": "?"
+        "link": "https://www.linkedin.com/in/tyshia-gray-4104301b3/"
     }
 ]
