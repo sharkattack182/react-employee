@@ -33,7 +33,7 @@ function Table(props) {
              
               <tr>
 
-                <th scope="row">{employee.id}</th>
+                <th scope="row">{employee.id+1}</th>
                 <td>{employee.first}</td>
                 <td>{employee.last}</td>
                 <td>{employee.role}</td>
