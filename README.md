@@ -9,6 +9,8 @@
  * [Installation](#Installation)
  * [License](#License)
  * [Questions](#Questions)
+ * [Links](#Links)
+ * [Visuals](#Visuals)
 
  ## License
  [MIT]  This project is covered by the MIT license
